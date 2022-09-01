@@ -3,9 +3,9 @@ int main(){
 
     char ch ='d';
 
-    if(ch>='a' && ch<='z'){
+    if(ch>=97 && ch<=122){
 
-            ch = 'A' + (ch-'a');
+            ch = 65 + (ch-97);
     }
     printf("%c", ch);
 
