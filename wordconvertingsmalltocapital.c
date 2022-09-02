@@ -9,9 +9,9 @@ int main(){
 
     for(i=0; i<n; i++){
 
-        if(country[i]>='a' && country[i]<='z'){
+        if(country[i]>=97 && country[i]<=122){
 
-            country[i] = 'A' + (country[i] - 'a');
+            country[i] = 65 + (country[i] - 97);
         }
     }
     printf("%s\n", country);
