@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main(){
 
-    char ch = 'B';
-    if(ch>='A' && ch<='Z'){
+    char ch = 'T';
+    if(ch>=65 && ch<=90){
 
-        ch = 'a' + (ch-'A');
+        ch = 97 + (ch-65);
     }
     printf("%c", ch);
 }
