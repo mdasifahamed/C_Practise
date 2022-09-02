@@ -9,9 +9,9 @@ int main(){
 
     for(i=0; i<n; i++){
 
-        if(word[i]>='A' && word[i]<='Z'){
+        if(word[i]>=65 && word[i]<=90){
 
-            word[i] = 'a' + (word[i] - 'A');
+            word[i] = 97 + (word[i] - 65);
         }
     }
     printf("%s\n", word);
