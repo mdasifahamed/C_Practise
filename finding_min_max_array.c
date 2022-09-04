@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 
-    int arr[5] = {30,500,10,40,50};
+    int arr[5] = {30,20,05,200,300};
 
     int min, max, i;
 
@@ -12,10 +12,9 @@ int main(){
 
         if(min>arr[i]){
             min = arr[i];
-        }
-        else if(max<arr[i]){
-            max = arr[i];
-        }
+        }   if(max<arr[i]){
+                max = arr[i];
+            }
     }
     printf("The minumum Number In The Array Is : %d\n", min);
     printf("The maximum Number In The Array Is : %d", max);
