@@ -66,7 +66,7 @@ if(col1!=row2){
 
     for(i=0; i<row3; i++){
         for(j=0;j<col3; j++){
-            for(k=0; k<col1; k++){
+            for(k=0; k<col1; k++){// this swap column and row for row to column and column to row using k
 
                 sum = sum + matrix1[i][k]*matrix2[k][j];
             }
