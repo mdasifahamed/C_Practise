@@ -1,6 +1,6 @@
 #include<stdio.h>
 // The directory of The File which Is going To be Read Must Be in The Same Directory Where the Programm .c file is There .
-// fgets() function read the file character by Character A loop will be needed to read the whole file .
+// fgetc() function read the file character by Character A loop will be needed to read the whole file .
 
 int main(){
 
